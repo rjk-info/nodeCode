@@ -1,0 +1,73 @@
+
+1. node ko open karne ke liye :- node type karte hai 
+
+2. node open karne ke baad koi command kaam nhi karta hai
+
+3. node open hone ke baad vo console ke tarah kaam karne lagta hai 
+
+4. .help se node ke sare command show karta hai
+
+5. exit karne ke liye .exit ka use karte hai ya 2 times ctrl+c karte hai
+
+6. New file create karne ke liye cmd open kar ke us me touch ka usr karte hai ex: touch script.js 
+
+7.kisi bhi file ko node se run karne ke liye us dirctory me hona chahiye or us ke baad node file ka name ex: node script.js
+
+          process
+
+8. process start karne ke liye cmd me process type kar ke enter karenge
+
+9. process.release se release info aaega
+
+10. process.cwd() ; se current working dirctory show karega 
+
+11 . process.argv ka use array dekh ne ke liye karte hai , cmd me process.argv type kar se kuch jayada show nhi karega , es ka use js file me karte hai 
+
+              EXPORT IN files
+
+12. data bhejne ke liye module.exports ka use karte hai 
+
+13. or data ko reshive karne ke liye require ka use karte hai 
+
+14. jab hum module.exports se kuch bhi send nhi karte hai phir bhi agaer require karte hai to ek empty object deta hai {} .
+
+                      EXPORT IN dirctory
+
+15.sabse pehle ek alag file create karenge , 
+us ke baad baad us me alag alag file create karenge or 
+or ek index page create karenge jo sab ko require karta hai
+us ke baad alag dirctory me ja kar us folder ko require
+ karenge 
+
+
+                NPM 
+16. npm node ke sath hi install ho kar aata hai ese alag se install nhi karna parta hai , 
+
+17. npm ko check karne ke liye npm type kar ke enter click karenge
+
+                    INSTALL PACKAGES
+
+1. packages ko install karne ke liye npm install packages name 
+ex : npm install figlet 
+
+note :- Agar kabhi node_modules delete ho jata hai to hum npm install se phir se use la sakte hai
+
+                    init (vvi)
+new porject create karne ke liye folder me ja kar npm init cmd ka use karte hai use inslaze karne ke liye 
+
+ab  es me packages install karne ke liye npm i packages ka name type karege 
+ex : npm i figlet
+
+                    IMPORT module 
+Import or require me se hum kisi ek ka hi use karenge 
+
+
+require pure file ko require karta hai jabki Import 1 by 1 Import karta hai 
+
+Import ka use karne ke liye sabse pehle export const sum = (a,b) => a + b ; ka use karenge 
+
+us ke baad yaha Import karna hai vaha par  
+import { sum } from "./math.js";
+use karenge 
+
+uske baad npm init karenge or packages.json me "type" : "module" add karenge 
